@@ -1,8 +1,8 @@
 import React from "react";
 
 const Interests = () => (
-  <div className="content">
-    <h2>My Interests</h2>
+  <div>
+    <h1>My Interests</h1>
     <ul>
       <li>Programming and exploring new frameworks</li>
       <li>Photography and editing</li>
