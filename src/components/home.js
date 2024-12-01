@@ -1,21 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => (
-  <section className="hero">
+  <div className="hero">
     <div className="intro">
-      <h1>Hi, I'm Kirti</h1>
-      <p>A Biologist-Turned-IT Enthusiast</p>
+      <h2>Hey, I'm Kirti Wadhwani</h2>
+      <p>
+        Passionate Full Stack Developer with expertise in building dynamic,
+        user-focused applications by seamlessly integrating front-end innovation
+        and robust back-end architecture.
+      </p>
       <div className="hero-buttons">
-        <a href="projects.html" className="btn">
-          View My Projects
-        </a>
-        <a href="contact.html" className="btn btn-secondary">
-          Contact Me
-        </a>
+        <Link to="/about" className="btn">
+          About Me
+        </Link>
+        <Link to="/contact" className="btn btn-secondary">
+          Contact
+        </Link>
       </div>
     </div>
-    <img src="assets/profile.jpg" alt="Kirti" className="hero-img" />
-  </section>
+  </div>
 );
 
 export default Home;

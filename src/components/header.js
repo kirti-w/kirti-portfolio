@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 const Header = () => (
   <header>
-    <h2>Kirti Wadhwani</h2>
-
+    <h2 className="nav-links">
+      <Link to="/kirti-portfolio">Kirti Wadhwani</Link>
+    </h2>
     <nav>
       <ul className="nav-links">
         <li>

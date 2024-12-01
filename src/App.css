@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Poppins");
+
 /* General Styles */
 * {
   margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
   color: #333;
 }
@@ -66,7 +68,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  background-image: url(../public/assets/bg.svg);
+  background-image: url("./assets/bg.svg");
+  background-repeat: repeat;
 }
 
 .social-links a[href^="https"] {
@@ -121,23 +124,29 @@ header nav {
 /* Hero Section */
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 3rem 2rem;
   background: #f4f4f4;
+  text-align: center;
+  min-height: 70vh;
 }
 
 .intro {
-  max-width: 50%;
+  max-width: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -290,13 +299,14 @@ header nav {
 
 /* Biography Section */
 .biography {
+  font-family: "Sofia", cursive;
   padding: 2rem;
   background: #f9f9f9;
   text-align: center;
 }
 
 .bio-container {
-  max-width: 800px;
+  max-width: 75%;
   margin: 0 auto;
 }
 

@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import profile from "../assets/profile.jpg";
 
 const About = () => (
   <section class="biography">
     <div class="bio-container">
       <h1>My Story</h1>
-      <img src="assets/profile.jpg" alt="Kirti" class="bio-photo" />
+      <img src={profile} alt="Kirti" className="bio-photo" />
 
       <section id="about">
         <h2>About Me</h2>
