@@ -28,28 +28,28 @@ const App = () => (
           target="_blank"
           title="Facebook"
           rel="noreferrer">
-          <i class="fab fa-facebook-f"></i>
+          <i className="fab fa-facebook-f"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/kirti-wadhwani-63720b9/"
           target="_blank"
           title="LinkedIn"
           rel="noreferrer">
-          <i class="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in"></i>
         </a>
         <a
           href="https://www.instagram.com/kirtiwadhwani20/"
           target="_blank"
           title="Instagram"
           rel="noreferrer">
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </a>
         <a
           href="https://github.com/kirti-w/"
           target="_blank"
           title="GitHub"
           rel="noreferrer">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
       </aside>
       <Footer className="footer" />

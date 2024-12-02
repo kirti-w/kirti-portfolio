@@ -98,27 +98,9 @@ header nav {
   align-items: center;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 .nav-links {
   display: flex;
   gap: 1.5rem;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.nav-links a {
-  color: #fff;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #ffd700;
 }
 
 @media (max-width: 400px) {

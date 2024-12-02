@@ -1,28 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "../styles/header.css"; // Add a CSS file for styles
 
-const Header = () => (
-  <header>
-    <h2 className="nav-links">
-      <Link to="/kirti-portfolio">Kirti Wadhwani</Link>
-    </h2>
-    <nav>
-      <ul className="nav-links">
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/resume">Resume</Link>
-        </li>
-        <li>
-          <Link to="/gallery">Gallery</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
-  </header>
-);
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <header className="header">
+      <div className="header-container">
+        <h2 className="logo">
+          <Link to="/kirti-portfolio">Kirti Wadhwani</Link>
+        </h2>
+        <button className="menu-toggle" onClick={toggleMenu}>
+          ☰
+        </button>
+      </div>
+      <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
+        <ul className="nav-links">
+          <li>
+            <Link to="/about" onClick={() => setIsMenuOpen(false)}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/resume" onClick={() => setIsMenuOpen(false)}>
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link to="/gallery" onClick={() => setIsMenuOpen(false)}>
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;
