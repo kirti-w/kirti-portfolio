@@ -24,35 +24,28 @@ const App = () => (
       </main>
       <aside className="sidebar social-links">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/kirti.wadhwani.7"
           target="_blank"
           title="Facebook"
           rel="noreferrer">
           <i class="fab fa-facebook-f"></i>
         </a>
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/kirti-wadhwani-63720b9/"
           target="_blank"
           title="LinkedIn"
           rel="noreferrer">
           <i class="fab fa-linkedin-in"></i>
         </a>
         <a
-          href="https://twitter.com"
-          target="_blank"
-          title="Twitter"
-          rel="noreferrer">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/kirtiwadhwani20/"
           target="_blank"
           title="Instagram"
           rel="noreferrer">
           <i class="fab fa-instagram"></i>
         </a>
         <a
-          href="https://www.github.com"
+          href="https://github.com/kirti-w/"
           target="_blank"
           title="GitHub"
           rel="noreferrer">

@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 const Home = () => (
   <div className="hero">
     <div className="intro">
-      <h2>Hey, I'm Kirti Wadhwani</h2>
+      <div>
+        <h2>Hey, I'm Kirti Wadhwani</h2>
+        <h6>
+          FULL STACK DEVELOPER | FRONT END AND APP DEVELOPMENT | ARCHITECT
+        </h6>
+      </div>
       <p>
         Passionate Full Stack Developer with expertise in building dynamic,
         user-focused applications by seamlessly integrating front-end innovation
