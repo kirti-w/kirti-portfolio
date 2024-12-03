@@ -2,37 +2,53 @@ import React from "react";
 import "../styles/projects.css"; // Optional CSS for styling
 import crisImg from "../assets/cris.svg";
 import worksafebcImg from "../assets/worksafebc.svg";
+import { useState } from "react";
+
 import cityImg from "../assets/city.svg";
 
-const ProjectCard = ({ image, title, description, duties }) => (
-  <div className="project-card">
-    <img src={image} alt={title} className="project-image" />
-    <h4 className="project-title">{title}</h4>
-    <p className="project-description">{description}</p>
-    <ul className="project-duties">
-      {duties.map((duty, index) => (
-        <li key={index}>{duty}</li>
-      ))}
-    </ul>
+const ProjectCard = ({ project, onClick }) => (
+  <div className="project-card" onClick={() => onClick(project)}>
+    <img src={project.image} alt={project.title} className="project-image" />
+    <h3 className="project-title">{project.title}</h3>
+    <p className="project-description">{project.description}</p>
   </div>
 );
 
-const Projects = () => (
-  <>
-    <h2 className="page-title">My Projects</h2>
+const Lightbox = ({ project, onClose }) => (
+  <div className="lightbox-overlay" onClick={onClose}>
+    <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+      <img src={project.image} alt={project.title} className="lightbox-image" />
+      <h3 className="lightbox-title">{project.title}</h3>
+      <p className="lightbox-description">{project.description}</p>
+      <ul className="lightbox-duties">
+        {project.duties.map((duty, index) => (
+          <li key={index}>{duty}</li>
+        ))}
+      </ul>
+      <button className="lightbox-close" onClick={onClose}>
+        Close
+      </button>
+    </div>
+  </div>
+);
+
+const Projects = () => {
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  const openLightbox = (project) => setSelectedProject(project);
+  const closeLightbox = () => setSelectedProject(null);
+
+  return (
     <div className="projects-container">
       {projectData.map((project, index) => (
-        <ProjectCard
-          key={index}
-          image={project.image}
-          title={project.title}
-          description={project.description}
-          duties={project.duties}
-        />
+        <ProjectCard key={index} project={project} onClick={openLightbox} />
       ))}
+      {selectedProject && (
+        <Lightbox project={selectedProject} onClose={closeLightbox} />
+      )}
     </div>
-  </>
-);
+  );
+};
 
 const projectData = [
   {
