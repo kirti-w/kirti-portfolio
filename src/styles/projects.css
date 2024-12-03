@@ -1,0 +1,46 @@
+/*Project cards*/
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image fills the area while maintaining its aspect ratio */
+  border-radius: 8px;
+  display: block; /* Prevents any extra spacing caused by inline elements */
+  max-height: 200px; /* Ensures a consistent height for all images */
+  overflow: hidden; /* Prevents the image from spilling outside */
+}
+
+.project-title {
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.project-duties {
+  list-style-type: disc;
+  margin: 10px 0 0;
+  padding: 0 20px;
+  text-align: left;
+}

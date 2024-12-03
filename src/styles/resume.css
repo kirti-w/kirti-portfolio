@@ -1,0 +1,25 @@
+.resume {
+  padding: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 30px;
+}
+
+.multi-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-ex {
+  grid-column: 1/1;
+  grid-row: 2/7;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex small {
+  padding-left: 10px;
+}

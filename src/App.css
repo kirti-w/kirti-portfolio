@@ -83,14 +83,6 @@ footer {
 }
 
 /* Header */
-header,
-footer {
-  background: #0077cc;
-  color: #fff;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-}
 
 header nav {
   display: flex;
@@ -101,6 +93,13 @@ header nav {
 .nav-links {
   display: flex;
   gap: 1.5rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #0077cc;
+  margin: 1rem;
+  text-align: center;
 }
 
 @media (max-width: 400px) {
@@ -452,14 +451,14 @@ button.btn:hover {
 /* Updated lighbox css  */
 
 .image-card {
-  width: 20vw;
-  height: 20vw;
-  object-fit: cover;
+  float: left;
+  width: 350px;
+  height: 200px;
 }
 
 #lightbox-img {
-  height: 80vh;
-  max-width: 90vw;
+  height: 600px;
+  width: 500px;
   object-fit: cover;
 }
 
@@ -470,16 +469,18 @@ button.btn:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/*Plain Image gallery */
-
 div.gallery {
   border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 div.gallery:hover {
@@ -507,8 +508,9 @@ div.desc {
 .responsive {
   padding: 20px;
   float: left;
-  width: 24.99999%;
+  width: 30%;
   display: flex;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 20px;
 }

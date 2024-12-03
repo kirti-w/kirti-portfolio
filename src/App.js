@@ -4,8 +4,9 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import About from "./components/about";
 import Home from "./components/home";
-import Interests from "./components/interests";
-import ImageGallery from "./components/gallery";
+import Resume from "./components/resume";
+//import ImageGallery from "./components/gallery";
+import Projects from "./components/projects";
 import Contact from "./components/contact";
 import "./App.css";
 
@@ -17,8 +18,8 @@ const App = () => (
         <Routes>
           <Route path="/kirti-portfolio" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/interests" element={<Interests />} />
-          <Route path="/gallery" element={<ImageGallery />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/gallery" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>

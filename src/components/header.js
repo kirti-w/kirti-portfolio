@@ -33,7 +33,7 @@ const Header = () => {
           </li>
           <li>
             <Link to="/gallery" onClick={() => setIsMenuOpen(false)}>
-              Gallery
+              Projects
             </Link>
           </li>
           <li>

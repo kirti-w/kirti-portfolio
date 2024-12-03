@@ -5,10 +5,10 @@ const Home = () => (
   <div className="hero">
     <div className="intro">
       <div>
-        <h2>Hey, I'm Kirti Wadhwani</h2>
-        <h6>
+        <h2 className="page-title">Hey, I'm Kirti Wadhwani</h2>
+        <h5>
           FULL STACK DEVELOPER | FRONT END AND APP DEVELOPMENT | ARCHITECT
-        </h6>
+        </h5>
       </div>
       <p>
         Passionate Full Stack Developer with expertise in building dynamic,

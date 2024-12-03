@@ -1,25 +1,39 @@
 import React from "react";
+import crisImg from "../assets/cris.svg";
+import worksafebcImg from "../assets/worksafebc.svg";
+import cityImg from "../assets/city.svg";
 
 const { useState } = React;
 
 //IMAGES
-//you can also import a local file, the syntax would look like:
-//import image1 from './images/imagename.jpg'
-const image1 =
-  "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80";
-const image2 =
-  "https://images.unsplash.com/photo-1470093851219-69951fcbb533?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80";
-const image3 =
-  "https://images.unsplash.com/photo-1447684808650-354ae64db5b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2094&q=80";
-const image4 =
-  "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80";
-const image5 =
-  "https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2301&q=80";
-const image6 =
-  "https://images.unsplash.com/photo-1500694216671-a4e54fc4b513?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2092&q=80";
 
 //IMAGE ARRAY
-const images = [image1, image2, image3, image4, image5, image6];
+const images = [
+  {
+    img: crisImg,
+    title: "Website Development for a major transportation provider",
+    description:
+      "Translink is Metro Vancouver's transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.",
+    duties:
+      "Developed and optimized full-stack applications using Microsoft technologies (ASP.NET MVC, .NET Core, C#, SQL Server), refactored legacy code, improved performance, and implemented new features and system integrations.",
+  },
+  {
+    img: worksafebcImg,
+    title: "Website Development for a major transportation provider",
+    description:
+      "Translink is Metro Vancouver's transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.",
+    duties:
+      "Developed and optimized full-stack applications using Microsoft technologies (ASP.NET MVC, .NET Core, C#, SQL Server), refactored legacy code, improved performance, and implemented new features and system integrations.",
+  },
+  {
+    img: cityImg,
+    title: "Website Development for a major transportation provider",
+    description:
+      "Translink is Metro Vancouver's transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.",
+    duties:
+      "Developed and optimized full-stack applications using Microsoft technologies (ASP.NET MVC, .NET Core, C#, SQL Server), refactored legacy code, improved performance, and implemented new features and system integrations.",
+  },
+];
 
 //MAIN LIGHTBOX
 //Holds Images Cards and Lightbox
@@ -29,16 +43,17 @@ export default function ImageGallery() {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
 
   //looping through our images array to create img elements
-  const imageCards = images.map((image) => (
-    <div className="responsive">
+  const imageCards = images.map((image, index) => (
+    <div className="responsive" key={index}>
       <div className="gallery">
-        <img
-          className="image-card"
-          onClick={() => showImage(image)}
-          alt="test"
-          src={image}
-        />
-        <div className="desc">Add a description of the image here</div>
+        <div className="image-card">
+          <img alt="test" src={image.img} />
+        </div>
+        <div>
+          <strong>{image.title}</strong>
+        </div>
+        <div className="desc">{image.description}</div>
+        <div className="desc">{image.duties}</div>
       </div>
     </div>
   ));
@@ -86,6 +101,7 @@ export default function ImageGallery() {
         <div id="lightbox" onClick={hideLightBox}>
           <button onClick={showPrev}>⭠</button>
           <img id="lightbox-img" src={imageToShow} alt="test"></img>
+          <h2>Description goes here</h2>
           <button onClick={showNext}>⭢</button>
         </div>
       ) : (
