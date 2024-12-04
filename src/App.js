@@ -16,6 +16,7 @@ const App = () => (
       <Header className="header" />
       <main className="main-content">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/kirti-portfolio" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />

@@ -5,9 +5,17 @@
   gap: 30px;
 }
 
+.resume hr {
+  margin-top: 30px;
+}
+
 .multi-rows {
   display: flex;
   flex-direction: column;
+}
+
+.education {
+  padding-top: 10px;
 }
 
 .work-ex {
@@ -17,9 +25,31 @@
 
 .flex {
   display: flex;
-  align-items: center;
+  align-items: end;
 }
 
 .flex small {
   padding-left: 10px;
+}
+
+@media (max-width: 400px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flex small {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flex small {
+    padding-left: 0px;
+  }
 }

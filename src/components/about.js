@@ -14,8 +14,8 @@ const About = () => (
           I am a Full Stack Developer with over 15 years of experience in
           designing and developing distributed, multi-tiered, and highly
           scalable systems. I am currently advancing my expertise by pursuing an
-          <strong>M.S. in Software Development at Boston University</strong>. My
-          expertise spans a wide range of Microsoft technologies, including{" "}
+          <strong> M.S. in Software Development at Boston University</strong>.
+          My expertise spans a wide range of Microsoft technologies, including{" "}
           <strong>.NET, MVC, C#, Microsoft Azure</strong>, as well as modern UI
           frameworks like <strong>Angular</strong> and <strong>React</strong>.
         </p>
