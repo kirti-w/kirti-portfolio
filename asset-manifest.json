@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/kirti-portfolio/static/css/main.35012b7b.css",
-    "main.js": "/kirti-portfolio/static/js/main.d991941d.js",
+    "main.css": "/kirti-portfolio/static/css/main.a2dabf1b.css",
+    "main.js": "/kirti-portfolio/static/js/main.23550309.js",
     "static/js/453.863b2395.chunk.js": "/kirti-portfolio/static/js/453.863b2395.chunk.js",
     "static/media/bg.svg": "/kirti-portfolio/static/media/bg.6cfd4e35eba51c1c2fdd.svg",
+    "static/media/city.jpg": "/kirti-portfolio/static/media/city.3caa6a19e3e2753e8983.jpg",
     "static/media/profile.jpg": "/kirti-portfolio/static/media/profile.3c916d0ee578243616fa.jpg",
+    "static/media/worksafebc.svg": "/kirti-portfolio/static/media/worksafebc.f8c428fd9e14d9c276c1f95765fae3a7.svg",
+    "static/media/cris.svg": "/kirti-portfolio/static/media/cris.fd7b66c08ece8fedb62f50ce3ac2a3b2.svg",
+    "static/media/translink.svg": "/kirti-portfolio/static/media/translink.c9a2df652676d01c01a907fa57795842.svg",
     "index.html": "/kirti-portfolio/index.html",
-    "main.35012b7b.css.map": "/kirti-portfolio/static/css/main.35012b7b.css.map",
-    "main.d991941d.js.map": "/kirti-portfolio/static/js/main.d991941d.js.map",
+    "main.a2dabf1b.css.map": "/kirti-portfolio/static/css/main.a2dabf1b.css.map",
+    "main.23550309.js.map": "/kirti-portfolio/static/js/main.23550309.js.map",
     "453.863b2395.chunk.js.map": "/kirti-portfolio/static/js/453.863b2395.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35012b7b.css",
-    "static/js/main.d991941d.js"
+    "static/css/main.a2dabf1b.css",
+    "static/js/main.23550309.js"
   ]
 }
