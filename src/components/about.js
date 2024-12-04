@@ -11,19 +11,23 @@ const About = () => (
       <section id="about">
         <h2>About Me</h2>
         <p>
-          I am a Full Stack Developer with over 15 years of experience in
-          designing and developing distributed, multi-tiered, and highly
-          scalable systems. I am currently advancing my expertise by pursuing an
+          Hello, my name is Kirti, and I am a Full Stack Developer with over 15
+          years of experience. Originally from India, I moved to North America
+          in 2018. I currently live in Rochester, NY, with my family and have
+          two sons, aged 13 and 8. I have worked with a variety of
+          organizations, ranging from startups to multinational corporations,
+          across diverse domains such as Finance, Government, and Pharmacy. I am
+          currently advancing my expertise by pursuing an{" "}
           <strong> M.S. in Software Development at Boston University</strong>.
           My expertise spans a wide range of Microsoft technologies, including{" "}
           <strong>.NET, MVC, C#, Microsoft Azure</strong>, as well as modern UI
-          frameworks like <strong>Angular</strong> and <strong>React</strong>.
+          frameworks like <strong>Angular</strong>.
         </p>
         <p>
           After stepping into the IT world, I discovered my love for{" "}
           <strong>solving problems</strong>, <strong>building software</strong>,
           and learning new <strong>programming languages</strong>. My experience
-          spans areas like <strong>web development</strong>,{" "}
+          spans areas like <strong>full stack development</strong>,{" "}
           <strong>data analysis</strong>, and <strong>automation</strong>, all
           of which leverage my analytical mindset and attention to detail.
         </p>
