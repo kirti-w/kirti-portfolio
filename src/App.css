@@ -102,6 +102,10 @@ header nav {
   text-align: center;
 }
 
+.intro .page-title {
+  margin: 0px;
+}
+
 @media (max-width: 400px) {
   .container {
     flex-direction: column;
@@ -296,31 +300,17 @@ header nav {
   background: #005fa3;
 }
 
-/* Contact Section */
-.contact-teaser {
-  text-align: center;
-  padding: 2rem;
-  background: #0077cc;
-  color: #fff;
+.contact .btn:disabled {
+  color: #cccccc; /* Greyed-out text */
+  background: #f0f0f0; /* Light grey background */
+  cursor: not-allowed; /* Disabled cursor */
+  opacity: 0.6; /* Faded appearance */
+  transition: none; /* Disable hover transitions */
 }
 
-.contact-teaser h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.contact-teaser .btn {
-  padding: 0.7rem 1.5rem;
-  font-size: 1rem;
-  color: #0077cc;
-  background: #ffd700;
-  border: none;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
-
-.contact-teaser .btn:hover {
-  background: #e5c100;
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
 }
 
 /* Responsive Design */
@@ -392,7 +382,6 @@ header nav {
 .contact p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #333;
 }
 
 .contact-form {
@@ -513,6 +502,15 @@ div.desc {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+.success {
+  color: rgb(76, 175, 80);
+  font-weight: bold;
+}
+
+.error {
+  color: red;
 }
 
 @media only screen and (max-width: 700px) {

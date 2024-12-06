@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://kirti-w.github.io/kirti-portfolio",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -6,9 +6,9 @@ const Home = () => (
     <div className="intro">
       <div>
         <h2 className="page-title">Hey, I'm Kirti Wadhwani</h2>
-        <h5>
+        <h4>
           FULL STACK DEVELOPER | FRONT END AND APP DEVELOPMENT | ARCHITECT
-        </h5>
+        </h4>
       </div>
       <p>
         Passionate Full Stack Developer with expertise in building dynamic,
