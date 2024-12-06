@@ -60,6 +60,7 @@ const Contact = () => {
             setSuccessStatus(1);
             setStatusMessage("Message sent successfully!");
             setIsSubmitting(false);
+            setFormData({ name: "", email: "", message: "" });
           },
           (error) => {
             setStatusMessage("Something went wrong, please try again later.");
@@ -68,8 +69,6 @@ const Contact = () => {
           }
         );
     }
-
-    setFormData({ name: "", email: "", message: "" });
   };
 
   return (
