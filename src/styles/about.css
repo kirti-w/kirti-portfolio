@@ -2,3 +2,42 @@
   margin: 5px;
   font-weight: bold;
 }
+/* Biography Section */
+.biography {
+  padding: 2rem;
+  text-align: center;
+}
+
+.bio-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.bio-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0077cc;
+}
+
+.bio-container p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.bio-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+  border: 3px solid #0077cc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds animation on hover */
+}
+
+.bio-photo:hover {
+  transform: scale(1.1); /* Slightly zooms in the picture on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifies the shadow on hover */
+}

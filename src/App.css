@@ -331,39 +331,6 @@ header nav {
   }
 }
 
-/* Biography Section */
-.biography {
-  padding: 2rem;
-  text-align: center;
-}
-
-.bio-container {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-.bio-container h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #0077cc;
-}
-
-.bio-container p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.bio-photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 1rem auto;
-  display: block;
-  border: 3px solid #0077cc;
-}
-
 /* Contact Section */
 .contact {
   padding: 2rem;
@@ -505,6 +472,10 @@ div.desc {
 .success {
   color: rgb(76, 175, 80);
   font-weight: bold;
+}
+
+.input.error {
+  border-color: red;
 }
 
 .error {
