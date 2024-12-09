@@ -23,11 +23,14 @@ header nav {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 .logo a {
   text-decoration: none;
   color: white;
+  margin-left: 10px;
 }
 
 .menu-toggle {

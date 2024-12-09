@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 import About from "./components/about";
 import Home from "./components/home";
 import Resume from "./components/resume";
-//import ImageGallery from "./components/gallery";
+import NotFound from "./components/notfound";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import "./App.css";
@@ -22,6 +22,7 @@ const App = () => (
           <Route path="/resume" element={<Resume />} />
           <Route path="/gallery" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <aside className="sidebar social-links">

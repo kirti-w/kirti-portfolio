@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logoImg from "../assets/logo.png";
 import "../styles/header.css"; // Add a CSS file for styles
 
 const Header = () => {
@@ -13,6 +14,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <h2 className="logo">
+          <img src={logoImg} alt="logo" />
           <Link to="/kirti-portfolio">Kirti Wadhwani</Link>
         </h2>
         <button className="menu-toggle" onClick={toggleMenu}>

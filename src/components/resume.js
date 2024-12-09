@@ -42,10 +42,12 @@ const Resume = () => (
           <small>Full Stack Developer | Oct 2019 – Mar 2022</small>
         </div>
         <div>
-          Developed and optimized full-stack solutions using Microsoft
-          technologies (ASP.NET MVC, .NET Core, C#, SQL Server), refactored
-          legacy code, improved performance of SQL queries and web pages, and
-          implemented new features and integrations.
+          Developed and maintained modern, secure, and efficient web
+          applications using cutting-edge frameworks and technologies, including
+          Angular, React, .NET Core, C#, Microsoft Azure (App Services,
+          Functions, OAuth), Jasmine, Karma, and CI/CD pipelines, while
+          improving legacy code quality and implementing best security
+          standards.
         </div>
       </div>
 
@@ -103,6 +105,23 @@ const Resume = () => (
             Masters in Computer Software and Applications - KJ SIMSR, Mumbai
           </h4>
           <small>2002-2004</small>
+        </div>
+
+        <hr />
+      </div>
+
+      <div>
+        <h2>CERTIFICATIONS</h2>
+      </div>
+
+      <div>
+        <div className="multi-rows">
+          <h4>Scrum Training</h4>
+          <small>2018</small>
+        </div>
+
+        <div className="multi-rows education">
+          Attended a 2 day Scrum Team Training held at WorksafeBC.
         </div>
 
         <hr />
