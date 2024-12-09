@@ -44,7 +44,9 @@ const About = () => (
         </p>
         <p>
           Thank you for visiting my portfolio! Feel free to download my resume
-          <a href="/resume.pdf" download="Kirti_Wadhwani_Resume.pdf">
+          <a
+            href="/kirti-portfolio/resume.pdfresume.pdf"
+            download="Kirti_Wadhwani_Resume.pdf">
             Download Resume
           </a>
           or get in touch via the
