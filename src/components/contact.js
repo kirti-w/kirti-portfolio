@@ -126,7 +126,7 @@ const Contact = () => {
         </form>
       )}
 
-      {successStatus === 1 && <p className="success">{statusMessage}</p>}
+      {successStatus === 1 && <h2 className="success">{statusMessage}</h2>}
     </div>
   );
 };
