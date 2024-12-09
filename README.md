@@ -2,6 +2,71 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Kirti's Portfolio
+
+## This is a personal portfolio website built with React. It showcases projects, a resume, and ways to contact me.
+
+## Features
+
+- **Home Page**: A brief introduction and welcome section.
+- **About Page**: Information about personal background and skills.
+- **Projects Page**: Displays portfolio projects with descriptions and links.
+- **Contact Form**: Allows users to send messages directly via email integration.
+- **Navigation**: Easy navigation between pages with a responsive header.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React.js (Create React App)
+- **Styling**: CSS
+- **Email Integration**: EmailJS
+
+## Folder Structure
+
+kirti-portfolio/
+├── src/
+│ ├── components/ # React components
+│ │ ├── about.js
+│ │ ├── contact.js
+│ │ ├── footer.js
+│ │ ├── header.js
+│ │ ├── home.js
+│ │ ├── navigation.js
+│ │ ├── notfound.js
+│ │ ├── projects.js
+│ │ └── resume.js
+│ ├── styles/ # Component-specific styles
+│ │ ├── about.css
+│ │ ├── header.css
+│ │ ├── notfound.css
+│ │ ├── projects.css
+│ │ └── resume.css
+│ ├── App.css
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+├── public/
+│ ├── index.html
+│ └── ...
+├── README.md
+├── package.json
+└── ...
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed on your machine.
+- Basic knowledge of React and JavaScript.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/kirti-portfolio.git
+   ```
+
 ## Available Scripts
 
 In the project directory, you can run:
