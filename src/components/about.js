@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import profile from "../assets/profile.jpg";
+import "../styles/about.css";
 
 const About = () => (
   <section className="biography">
@@ -42,9 +43,12 @@ const About = () => (
           professional growth, and I strive to expand my knowledge daily.
         </p>
         <p>
-          Thank you for visiting my portfolio! Feel free to explore my projects,
-          gallery, or get in touch via the
-          <Link to="/contact"> Contact </Link> page.
+          Thank you for visiting my portfolio! Feel free to download my resume
+          <a href="/resume.pdf" download="Kirti_Wadhwani_Resume.pdf">
+            Download Resume
+          </a>
+          or get in touch via the
+          <Link to="/contact">Contact</Link> page.
         </p>
       </section>
     </div>
