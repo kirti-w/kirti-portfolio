@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kirti-portfolio/static/css/main.acfe26da.css",
-    "main.js": "/kirti-portfolio/static/js/main.076676df.js",
+    "main.js": "/kirti-portfolio/static/js/main.6fdc33f3.js",
     "static/js/453.863b2395.chunk.js": "/kirti-portfolio/static/js/453.863b2395.chunk.js",
     "static/media/bg.svg": "/kirti-portfolio/static/media/bg.fc45d50a79edd2d2bfc4.svg",
     "static/media/city.jpg": "/kirti-portfolio/static/media/city.3caa6a19e3e2753e8983.jpg",
@@ -11,11 +11,11 @@
     "static/media/translink.svg": "/kirti-portfolio/static/media/translink.c9a2df652676d01c01a907fa57795842.svg",
     "index.html": "/kirti-portfolio/index.html",
     "main.acfe26da.css.map": "/kirti-portfolio/static/css/main.acfe26da.css.map",
-    "main.076676df.js.map": "/kirti-portfolio/static/js/main.076676df.js.map",
+    "main.6fdc33f3.js.map": "/kirti-portfolio/static/js/main.6fdc33f3.js.map",
     "453.863b2395.chunk.js.map": "/kirti-portfolio/static/js/453.863b2395.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acfe26da.css",
-    "static/js/main.076676df.js"
+    "static/js/main.6fdc33f3.js"
   ]
 }
