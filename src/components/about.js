@@ -14,8 +14,8 @@ const About = () => (
         <p>
           Hello, my name is Kirti, and I am a Full Stack Developer with over 15
           years of experience. Originally from India, I moved to North America
-          in 2018. I currently live in Rochester, NY, and have two sons, aged 13
-          and 8. I have worked with a variety of organizations, ranging from
+          in 2018. I currently live in Vancouver, Canada and have two sons, aged
+          13 and 8. I have worked with a variety of organizations, ranging from
           startups to multinational corporations in India and Canada, across
           diverse domains such as Finance, Government, and Pharmacy. I am
           currently advancing my expertise by pursuing an{" "}
