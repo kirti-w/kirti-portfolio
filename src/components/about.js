@@ -12,25 +12,45 @@ const About = () => (
       <section id="about">
         <h2>About Me</h2>
         <p>
-          Hello, my name is Kirti, and I am a Full Stack Developer with over 15
-          years of experience. Originally from India, I moved to North America
-          in 2018. I currently live in Vancouver, Canada and have two sons, aged
-          13 and 8. I have worked with a variety of organizations, ranging from
-          startups to multinational corporations in India and Canada, across
-          diverse domains such as Finance, Government, and Pharmacy. I am
-          currently advancing my expertise by pursuing an{" "}
-          <strong> M.S. in Software Development at Boston University</strong>.
-          My expertise spans a wide range of Microsoft technologies, including{" "}
-          <strong>.NET, MVC, C#, Microsoft Azure</strong>, as well as modern UI
-          frameworks like <strong>Angular</strong>.
+          Hello, I’m <strong>Kirti</strong>, a{" "}
+          <strong>Senior Full Stack .NET Developer</strong> with over{" "}
+          <strong>15 years of experience</strong> designing and delivering
+          enterprise-grade software solutions. I’ve worked with organizations
+          ranging from startups to large multinational enterprises across
+          domains such as{" "}
+          <strong>Finance, Government, and Healthcare/Pharmacy</strong>, helping
+          teams build{" "}
+          <strong>scalable, secure, and maintainable applications</strong>.
         </p>
+
         <p>
-          After stepping into the IT world, I discovered my love for{" "}
-          <strong>solving problems</strong>, <strong>building software</strong>,
-          and learning new <strong>programming languages</strong>. My experience
-          spans areas like <strong>full stack development</strong>,{" "}
-          <strong>data analysis</strong>, and <strong>automation</strong>, all
-          of which leverage my analytical mindset and attention to detail.
+          My technical expertise centers around{" "}
+          <strong>Microsoft technologies</strong> including{" "}
+          <strong>
+            .NET, C#, ASP.NET MVC, Web API, Microservices, and Microsoft Azure
+          </strong>
+          , along with modern front-end frameworks like <strong>Angular</strong>
+          . I enjoy working across the full stack—translating complex business
+          requirements into <strong>clean, reliable code</strong> while
+          continuously improving{" "}
+          <strong>performance, architecture, and developer experience</strong>.
+        </p>
+
+        <p>
+          Originally from <strong>India</strong>, I moved to{" "}
+          <strong>North America</strong> in 2018 and am currently based in{" "}
+          <strong>Rochester, NY</strong>. I’m also advancing my technical and
+          architectural foundation by pursuing an{" "}
+          <strong>M.S. in Software Development</strong> at{" "}
+          <strong>Boston University</strong>.
+        </p>
+
+        <p>
+          What drives me most is <strong>problem-solving</strong>—whether it’s
+          modernizing legacy systems, automating workflows, or mentoring team
+          members. I bring a strong <strong>analytical mindset</strong>,{" "}
+          <strong>attention to detail</strong>, and a passion for{" "}
+          <strong>continuous learning</strong> to every project I work on.
         </p>
       </section>
 

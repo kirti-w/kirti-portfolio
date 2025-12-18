@@ -7,13 +7,14 @@ const Home = () => (
       <div>
         <h2 className="page-title">Hey, I'm Kirti Wadhwani</h2>
         <h4>
-          FULL STACK DEVELOPER | FRONT END AND APP DEVELOPMENT | ARCHITECT
+          SENIOR FULL STACK .NET DEVELOPER | FRONT END AND APP DEVELOPMENT |
+          ARCHITECT
         </h4>
       </div>
       <p>
         Passionate Full Stack Developer with expertise in building dynamic,
-        user-focused applications by seamlessly integrating front-end innovation
-        and robust back-end architecture.
+        enterprise-grade applications by seamlessly integrating front-end
+        innovation and robust back-end architecture
       </p>
       <div className="hero-buttons">
         <Link to="/about" className="btn">

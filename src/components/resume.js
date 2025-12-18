@@ -97,7 +97,7 @@ const Resume = () => (
       <div>
         <div className="multi-rows">
           <h4>Master of Science in Software Development - Boston University</h4>
-          <small>2024-2025</small>
+          <small>Jan 2024 - Feb 2026</small>
         </div>
 
         <div className="multi-rows education">
